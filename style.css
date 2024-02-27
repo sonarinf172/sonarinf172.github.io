@@ -1,0 +1,27 @@
+.bgimage {
+    height:100vh;
+    position:relative;
+    overflow: hidden;
+}
+
+.bgimage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url("images/home.png");
+    background-size: cover;
+    filter: blur(3px);
+}
+
+.navbar {
+    background-color: #2112ff; 
+    padding-bottom: 20px; 
+  }
+
+.navbar-nav .nav-link {
+color: black;
+font-size: 1.5em; 
+}
