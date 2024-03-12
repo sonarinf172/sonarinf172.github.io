@@ -11,13 +11,12 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: url("images/home.png");
+    background: url("images/sonar_banner.png");
     background-size: cover;
-    filter: blur(3px);
 }
 
 .navbar {
-    background-color: #2112ff; 
+    background-color: #3162e7; 
     padding-bottom: 20px; 
   }
 
